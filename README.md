@@ -1,4 +1,4 @@
-# Understand the constant birth-death model
+# Understanding the constant birth-death model
 
 ## Learning outcomes
 
