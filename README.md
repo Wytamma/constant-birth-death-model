@@ -2,16 +2,16 @@
 
 ## Learning outcomes
 
-Develop a good understand the constant birth-death model
+Develop a good understanding of the constant birth-death model
 
 ## Goals 
 
-Use the BDsky BEAST2 model to estimate the:
+Use the BDsky package in BEAST2 to:
 
 - Fit a constant birth-death model.
 - The duration of infection is 10 calendar days, but note that the tree has dates in units of years, so you will need to convert it accordingly. Also note that the duration of infection is not a parameter in beast, so you will need to transform it accordingly. This parameter should be fixed in the model (i.e not estimated).
-- We need to estimate:
-    - reproductive number (R0 here)
+- Estimate:
+    - tge reproductive number (R0 here)
     - the sampling proportion
     - TMRCA
     - clock-rate
