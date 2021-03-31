@@ -50,8 +50,26 @@ Choose priors in BEAST2 accordingly. The duration of infection is 10 calendar da
     - (assumed within the normal range of pathogens)
     - M 0
     - S 1.25
-- origin Gamma 
-    - informs tMRCA
+- origin: Gamma 
+    - informs tMRCA (height)
     - alpha 0.5
     - beta 2
+- SamplingProportion: Beta
+    - (not sure what the prior should be for simulated data so left it as uninformative)
+    - alpha 1
+    - beta 1
 
+### MCMC
+- chain length 3000000 (short for speed)
+- log every 3000
+
+## Results
+![marginal densities](images/marginal.png)
+### The reproductive number (R0 here)
+![](images/R0.png)
+### the sampling proportion
+![](images/proportion.png)
+### tMRCA
+![](images/tMRCA.png)
+### Clock-rate
+![](images/clockrate.png)
