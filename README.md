@@ -23,9 +23,9 @@ Choose priors in BEAST2 accordingly. The duration of infection is 10 calendar da
 - [Population trajectories](data/BDTree_MASTER_constant_samp.json) in json format. You don’t need to look at it now, but when you fit the model, we can compare its expectation with these.
 
 ## BEAUti 2
-https://taming-the-beast.org/tutorials/Skyline-plots/#Heled2008
-https://taming-the-beast.org/tutorials/Prior-selection/
-
+- https://taming-the-beast.org/tutorials/Skyline-plots/#Heled2008
+- https://taming-the-beast.org/tutorials/Prior-selection/
+- 
 ### tip dates 
 - extracted dates from tips (assumed decimal years)
 ### site model 
