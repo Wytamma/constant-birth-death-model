@@ -22,10 +22,10 @@ Choose priors in BEAST2 accordingly. The duration of infection is 10 calendar da
 - [The timetree](data/BDTree_hetero_fixedN_MASTER.newick.tree) from which the sequences were generated, in case you want to have a look at it.
 - [Population trajectories](data/BDTree_MASTER_constant_samp.json) in json format. You don’t need to look at it now, but when you fit the model, we can compare its expectation with these.
 
-## BEAUti 2
+## Solution
 - https://taming-the-beast.org/tutorials/Skyline-plots/#Heled2008
 - https://taming-the-beast.org/tutorials/Prior-selection/
-- 
+- https://lukejharmon.github.io/pcm/chapter10_birthdeath/
 ### tip dates 
 - extracted dates from tips (assumed decimal years)
 ### site model 
