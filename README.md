@@ -36,11 +36,9 @@ Choose priors in BEAST2 accordingly. The duration of infection is 10 calendar da
 ### priors
 - Tree: BDskyline serial 
     - (sampled at different times)
-- becomeUninfectiousRate: Log normal
+- becomeUninfectiousRate: Fixed
     - (the inverse of the becoming uninfectious rate is the average infectious period, 1/duration of infection (days) * 365 days = becomeUninfectiousRate)
-    - M 36.5
-    - S 1
-    - Mean in Real space
+    - value 36.5
 - clockRate: Log normal
     - (assumed rate of RNA viruses)
     - M 0.001 
