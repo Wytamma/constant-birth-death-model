@@ -23,6 +23,8 @@ Choose priors in BEAST2 accordingly. The duration of infection is 10 calendar da
 - [Population trajectories](data/BDTree_MASTER_constant_samp.json) in json format. You don’t need to look at it now, but when you fit the model, we can compare its expectation with these.
 
 ## Solution
+There are only two parameters that are identifiable in the birth-death model: birth*death*sampling proportion and birth-death. To obtain any individual parameters or the reproductive number you need strong prior info on any one of them.
+- https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003913
 - https://taming-the-beast.org/tutorials/Skyline-plots/#Heled2008
 - https://taming-the-beast.org/tutorials/Prior-selection/
 - https://lukejharmon.github.io/pcm/chapter10_birthdeath/
